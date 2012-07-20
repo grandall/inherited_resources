@@ -1,11 +1,3 @@
-=== Deprecation notice
-
-Since Rails 3 came out, I have no longer used Inherited Resources. I have found that the
-responders abstraction and custom Rails generators offer the perfect balance between
-hiding and showing too much logic. That said, I suggest developers to make use of the
-responders gem (at https://github.com/plataformatec/responders) and no longer use Inherited
-Resources.
-
 == Inherited Resources
 
 Inherited Resources speeds up development by making your controllers inherit
@@ -553,5 +545,5 @@ If you discover any bugs, please describe it in the issues tracker, including Ra
 
 Questions are better handled on StackOverflow.
 
-Copyright (c) 2011 José Valim http://blog.plataformatec.com.br
+Copyright (c) 2009-2012 José Valim http://blog.plataformatec.com.br
 See the attached MIT License.
