@@ -263,7 +263,11 @@ module InheritedResources
       # Makes sense when using rails 3.1 mass assignment conventions
       def with_role(role)
         self.resources_configuration[:self][:role] = role.try(:to_sym)
-      end 
+      end
+
+      def without_protection(flag)
+        self.resources_configuration[:self][:without_protection] = flag
+      end
 
     private
 
